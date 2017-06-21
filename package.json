@@ -1,5 +1,5 @@
 {
-  "name": "zombie",
+  "name": "@forbeslindesay/zombie",
   "version": "5.0.5",
   "description": "Insanely fast, full-stack, headless browser testing using Node.js",
   "homepage": "https://www.npmjs.com/package/zombie",
@@ -38,7 +38,7 @@
   "scripts": {
     "build": "gulp build",
     "test": "gulp lint && mocha",
-    "prepublish": "npm test && gulp build",
+    "prepublish": "gulp build",
     "postpublish": "git push"
   },
   "dependencies": {
